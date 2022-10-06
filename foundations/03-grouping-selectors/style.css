@@ -1,0 +1,12 @@
+.me, .no-me{
+    font-size: 28px;
+    font-family: "Lucida Console",Helvetica,'Times New Roman', sans-serif;
+}
+
+.me{
+    background-color: rgb(14, 13, 13);
+    color: whitesmoke;
+}
+.no-me{
+    background-color: rgb(219, 219, 50);
+}
