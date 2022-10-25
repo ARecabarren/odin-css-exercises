@@ -14,19 +14,17 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+
 }
-.right-items{
+.left-items, .right-items{
   display: flex;
   gap: 16px;
-  margin: 8px;
+  /* margin: 8px; */
   /* border: 2px solid red; */
 }
-.left-items{
-  display: flex; 
-  margin: 8px;
-  justify-content: space-between;
-  gap: 16px;
-}
+
 .header ul{
   display: flex;
   gap: 16px;
@@ -52,10 +50,12 @@ body {
 
 button {
   border: none;
+  font-weight: 700;
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
-  padding: 8px 24px;
+  padding: 1px 20px;
+  margin: 8px auto;
 }
 
 a {
